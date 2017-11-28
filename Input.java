@@ -9,7 +9,7 @@ public class Input {
 		System.out.println();
 
 		System.out.print("input: ");
-		int dir = input.nextLn();
+		String dir = input.nextLine();
 
 		if(dir.equalsIgnoreCase("left")){
 			System.out.println("you decide to go left. along the way, you're");
