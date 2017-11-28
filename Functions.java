@@ -2,6 +2,7 @@ public class Functions {
 
 	public static boolean isPrime(int n) {
 		//java.lang.Math.sqrt(n) is much better
+		//i'm going to have to disagree
 		for(int i = 2; i < (n/2+1); i++) {
 			if(n % i == 0) {
 				return false;
